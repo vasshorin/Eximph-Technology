@@ -1,0 +1,58 @@
+/* Navbar */
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+}
+
+/* Header */
+img.img-fluid {
+  max-width: 100%;
+}
+
+/* Quick Products */
+h2 {
+  font-size: 2rem;
+}
+
+/* About Us */
+p {
+  font-size: 1.2rem;
+}
+
+/* Footer */
+footer p {
+  font-size: 1rem;
+}
+
+@media (max-width: 767px) {
+  /* Navbar */
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+
+  /* Quick Products */
+  .col-md-4 {
+    margin-bottom: 2rem;
+  }
+
+  /* About Us */
+  p {
+    font-size: 1rem;
+  }
+
+  /* Footer */
+  footer p {
+    font-size: 0.8rem;
+  }
+}
