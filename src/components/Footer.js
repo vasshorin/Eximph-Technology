@@ -1,18 +1,28 @@
-import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <footer className="bg-light mt-3">
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col-12 text-center">
-          <p>&copy; 2023 Pharma Machinery. All rights reserved.</p>
-          <p><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-3">
+            <ul>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About</Link></li>
+              <li><Link to="/products">Products</Link></li>
+              </ul>
+          </div>
+          <div className="col-md-6 text-center">
+            <p>123 Main Street, Anytown, USA 12345 | Phone: 555-555-5555 | Email: info@pharmamachinery.com</p>
+          </div>
+          <div className="col-md-3 text-end">
+            <p>&copy; 2023 Pharma Machinery. All rights reserved.</p>
+            <p><Link to="/privacy-policy">Privacy Policy</Link> | <Link to="/terms-of-service">Terms of Service</Link></p>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
   )
 }
 
-export default Footer
+export default Footer;
