@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { products } from './items.js';
+import { products } from '../items.js';
+import './ProductDetails.css';
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -11,11 +12,15 @@ const ProductDetails = () => {
   }
   
   return (
-    <div>
-      <h1>Product Details</h1>
-      <h2>{product.name}</h2>
-      <p>{product.description}</p>
+    <div className='product-details'>
+      <div>
       <img src={product.imageUrl} alt={product.name} />
+      </div>
+      <div className=''>
+      {/* <h1 className='product-title'>Product Details</h1> */}
+      <h2 className='product-name'>{product.name}</h2>
+      <p className='products-'>{product.description}</p>
+      </div>
     </div>
   );
 };

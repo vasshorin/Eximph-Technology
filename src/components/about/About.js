@@ -1,8 +1,8 @@
 import React from 'react';
-import eximphLogo from '../assets/eximph-logo.png';
-import solidDosageLine from '../assets/solid-dosage-line.jpg';
-import oncologyLine from '../assets/oncology-line.jpg';
-import foodProcessingMachine from '../assets/food-processing-machine.jpg';
+import eximphLogo from '../../assets/eximph-logo.png';
+import solidDosageLine from '../../assets/solid-dosage-line.jpg';
+import oncologyLine from '../../assets/oncology-line.jpg';
+import foodProcessingMachine from '../../assets/food-processing-machine.jpg';
 
 
 

@@ -1,9 +1,9 @@
 export const products = [
     {
       id: 1,
-      name: 'Product 1',
+      name: 'Dry-granulation',
       imageUrl: 'https://quarco.ru/assets/images/resources/46/1.jpg',
-      description: 'This is product 1',
+      description: 'Eximph Technologies offers the FB, FBG and FBGP series fluid bed dryers. These machines are designed for pelletizing substances and drying the resulting granules as well as mixing the substances in a fluidized bed. The dryers of the presented series differ in their functionality and purpose, FB series: drying of granulate, FBG series: drying and granulation, FBGP series: drying and production of granulate, coating of granulate and production of pellets. This equipment is widely used in the pharmaceutical and food industry, as well as the production of dietary supplements and compound feeds.',
     },
     {
       id: 2,

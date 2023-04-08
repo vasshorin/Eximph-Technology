@@ -1,8 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Home from './Home';
-import About from './About';
-import Products from './Products.js';
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
