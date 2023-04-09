@@ -41,27 +41,29 @@ const ProductDetails = () => {
             </h2>
             <ul className="list-disc pl-5">{advantagesList}</ul>
             <br />
-            <table>
-              <tbody>
-                {product.specs.map((spec, index) => (
-                  <tr
-                    key={index}
-                    className={index % 2 === 0 ? "bg-gray-200" : ""}
-                  >
-                    <th className="text-gray-700 font-bold">{spec.label}</th>
-                    {spec.values.map((value, index) => (
-                      <td
-                        key={index}
-                        className="p-2 border border-gray-400 text-center"
-                        colSpan={value.colspan || 1}
-                      >
-                        {value.text}
-                      </td>
-                    ))}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+            {product.specs.length > 0 ? (
+              <table>
+                <tbody>
+                  {product.specs.map((spec, index) => (
+                    <tr
+                      key={index}
+                      className={index % 2 === 0 ? "bg-gray-200" : ""}
+                    >
+                      <th className="text-gray-700 font-bold">{spec.label}</th>
+                      {spec.values.map((value, index) => (
+                        <td
+                          key={index}
+                          className="p-2 border border-gray-400 text-center"
+                          colSpan={value.colspan || 1}
+                        >
+                          {value.text}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            ) : null}
           </div>
         </div>
       </div>
