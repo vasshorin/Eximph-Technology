@@ -13,10 +13,10 @@ const Footer = () => {
               </ul>
           </div>
           <div className="col-md-6 text-center">
-            <p>123 Main Street, Anytown, USA 12345 | Phone: 555-555-5555 | Email: info@pharmamachinery.com</p>
+            <p>Suite 803, Level 8, Chit Lee Commercial Building, No. 30-36 Shau Kei Wan Road, Sai Wan Ho, Hong Kong.| Phone: 555-555-5555 | Email: info@pharmamachinery.com</p>
           </div>
           <div className="col-md-3 text-end">
-            <p>&copy; 2023 Pharma Machinery. All rights reserved.</p>
+            <p>&copy; 2023 Eximph Technologies. All rights reserved.</p>
             <p><Link to="/privacy-policy">Privacy Policy</Link> | <Link to="/terms-of-service">Terms of Service</Link></p>
           </div>
         </div>
