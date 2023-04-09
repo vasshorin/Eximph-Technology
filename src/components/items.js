@@ -1,3 +1,4 @@
+import dedusterTable from '../assets/deduster-table.jpg';
 export const products = [
     {
       id: 1,
@@ -23,7 +24,90 @@ export const products = [
       The presence of an air filter that prevents the ingress of substance dust into the room; 
       The presence of a central control system with a touch screen and a programmable logic controller, provides clear and easy control of the technological process; 
       The design and compact size of the mixer reduce power consumption by up to 20% and save expensive space in the room; 
-      High-quality polishing (0.5 microns) on the inner surface of the mixer. Safety in operation: presence of locks on the main and exit hatches of the mixer, as well as automatic cut-off of drives power when any of these hatches is opened. Surfaces in contact with the product are made of high quality alloy steel AISI304;`
+      High-quality polishing (0.5 microns) on the inner surface of the mixer. Safety in operation: presence of locks on the main and exit hatches of the mixer, as well as automatic cut-off of drives power when any of these hatches is opened. Surfaces in contact with the product are made of high quality alloy steel AISI304;`,
+      specs: [
+        {
+          label: "Model",
+          values: [
+            { text: "MWG-20" },
+            { text: "MWG-50" },
+            { text: "MWG-100" },
+            { text: "MWG-150" },
+          ],
+        },
+        {
+          label: "Total volume of the container (L)",
+          values: [
+            { text: "14" },
+            { text: "35" },
+            { text: "70" },
+            { text: "105" },
+          ],
+        },
+        {
+          label: "Operating volume of the container (L)",
+          values: [
+            { text: "3-5" },
+            { text: "10-22" },
+            { text: "20-35" },
+            { text: "45-60" },
+          ],
+        },
+        {
+          label: "Stirrer rotation speed (rpm)",
+          values: [
+            { text: "25-500" },
+            { text: "25-500" },
+            { text: "6-200" },
+            { text: "6-200" },
+          ],
+        },
+        {
+          label: "Power of the main motor (kW)",
+          values: [
+            { text: "2.2" },
+            { text: "5.5" },
+            { text: "7.5" },
+            { text: "11.5" },
+          ],
+        },
+        {
+          label: "Choppermotor rotation speed (rpm)",
+          values: [
+            { text: "100-3000" },
+            { text: "300-3000" },
+            { text: "300-3000" },
+            { text: "300-3000" },
+          ],
+        },
+        {
+          label: "Power of the chopper motor (kW)",
+          values: [
+            { text: "0.75" },
+            { text: "1.5" },
+            { text: "2.2" },
+            { text: "3.7" },
+          ],
+        },
+        {
+          label: "Dimensions (mm)",
+          values: [
+            { text: "1560x540x1430" },
+            { text: "1900x700x1600" },
+            { text: "1900x750x1600" },
+            { text: "2100x850x1700" },
+          ],
+        },
+        {
+          label: "Weight (kg)",
+          values: [
+            { text: "350" },
+            { text: "500" },
+            { text: "1050" },
+            { text: "1200" },
+          ],
+        }
+      ],
     },
     {
       id: 3,
@@ -34,7 +118,78 @@ export const products = [
       The height of the pellet outlet is easily adjustable;
       The machines inlet and outlet are rotatable (360 degrees), which makes the production process convenient and allows for maximum economy of working space;
       Quick-assembly and disassembly reliable design. High capacity, enables production of large batches of different types of tablets 3-35 mm in diameter. All parts in contact with pellets are made of stainless steel 316L. The design of the dedusting machine has no "dead zones" which makes its cleaning efficient and fully meets the requirements of GMP. The reliable drive ensures stable and low-noise operation;
-      Distinctive features of the machine are polishing pellets on both sides, high dedusting efficiency, modern design and easy transportation.`
+      Distinctive features of the machine are polishing pellets on both sides, high dedusting efficiency, modern design and easy transportation.`,
+      specs: [
+        {
+          label: "Model",
+          values: [
+            { text: "C&C200G" },
+            { text: "C&C200G1" },
+            { text: "C&C200G2" },
+            { text: "C&C200G3" },
+          ],
+        },
+        {
+          label: "Table diameter (mm)",
+          values: [{ text: "Ø3-Ø35", colspan: 4 }],
+        },
+        {
+          label: "Max Output capacity",
+          values: [{ text: "1800000(Ø6)", colspan: 4 }],
+        },
+        {
+          label: "Inlet hieght (mm)",
+          values: [
+            { text: "740-940" },
+            { text: "740-940" },
+            { text: "740-940" },
+            { text: "740-940" },
+          ],
+        },
+        {
+          label: "Outlet hieght (mm)",
+          values: [
+            { text: "1125-1325" },
+            { text: "1525-1725" },
+            { text: "1925-2125" },
+            { text: "2325-2525" },
+          ],
+        },
+        {
+          label: "Dedusting distance (m)",
+          values: [{ text: "6.8" }, { text: "11.1" }, { text: "15.4" }, { text: "19.7" }],
+        },
+        {
+          label: "Power supply",
+          values: [{ text: "1PH 220V/110V 50Hz/60Hz 0.4kw", colspan: 4 }],
+        },
+        {
+          label: "Compression Air",
+          values: [{ text: "0.1 m3/min 0.05MPa", colspan: 4 }],
+        },
+        {
+          label: "Vacuum",
+          values: [{ text: "2.7 m3/min -0.1MPa", colspan: 4 }],
+        },
+        {
+          label: "Weight (kg)",
+          values: [
+            { text: "120" },
+            { text: "130" },
+            { text: "140" },
+            { text: "150" },
+          ],
+        },
+        {
+          label: "Dimensions (mm)",
+          values: [
+            { text: "577 x 606 x (1362-1562)" },
+            { text: "577 x 606 x (1762-1962)" },
+            { text: "577 x 606 x (2162-2362)" },
+            { text: "577 x 606 x (2562-2762)" },
+          ],
+        },
+      ],
     },
     {
       id: 4,
