@@ -16,13 +16,13 @@ function About() {
         <div className="md:w-1/3 md:pr-8">
           <img src={eximphLogo} alt="Eximph Technologies" className="w-full h-auto" />
         </div>
-        <div className="md:w-2/3 md:pl-8">
+      </div>
+      <br />
+      <div className="mt-8">
           <p className="text-lg leading-7 text-gray-500">
             Eximph Technologies is a global company that specializes in providing top-of-the-line pharmaceutical equipment to major producers in the industry. With years of experience and expertise, the company has established a strong reputation as a trusted partner for laboratories, production facilities, and manufacturers around the world.
           </p>
-        </div>
-      </div>
-      <div className="mt-8">
+          <br />
         <h2 className="text-xl leading-7 font-semibold text-gray-900">
           Our Solutions
         </h2>
