@@ -1,32 +1,42 @@
 import { Link } from 'react-router-dom';
-import './Footer.css'
+import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="bg-light mt-3">
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-3">
-            <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About</Link></li>
-              <li><Link to="/products">Products</Link></li>
-              </ul>
+    <footer className="bg-gray-200 py-6 mt-10">
+      <div className="container mx-auto px-6">
+        <div className="lg:flex">
+          <div className="w-full lg:w-1/3">
+            <h3 className="text-gray-900 font-bold mb-2">Navigation</h3>
+            <ul className="list-reset">
+              <li className="my-2">
+                <Link to="/" className="text-gray-800 hover:text-gray-600">Home</Link>
+              </li>
+              <li className="my-2">
+                <Link to="/about" className="text-gray-800 hover:text-gray-600">About</Link>
+              </li>
+              <li className="my-2">
+                <Link to="/products" className="text-gray-800 hover:text-gray-600">Products</Link>
+              </li>
+            </ul>
           </div>
-          <div className="col-md-6 text-center">
-            {/* TODO: CHANGE PHONE NUBMBER */}
-            <p>Phone: +852 1234 5678</p>
-            <p>Email: vasily@eximph.com</p>
-            <p>Suite 803, Level 8, Chit Lee Commercial Building, No. 30-36 Shau Kei Wan Road, Sai Wan Ho, Hong Kong.</p>
+          <div className="w-full lg:w-1/3 lg:mx-6 mt-6 lg:mt-0">
+            <h3 className="text-gray-900 font-bold mb-2">Contact Us</h3>
+            <p className="text-gray-800 mb-2">Phone: +852 1234 5678</p>
+            <p className="text-gray-800 mb-2">Email: vasily@eximph.com</p>
+            <p className="text-gray-800 mb-2">Suite 803, Level 8, Chit Lee Commercial Building, No. 30-36 Shau Kei Wan Road, Sai Wan Ho, Hong Kong.</p>
           </div>
-          <div className="col-md-3 text-end">
-            <p>&copy; 2023 Eximph Technologies. All rights reserved.</p>
-            <p><Link to="/privacy-policy">Privacy Policy</Link> | <Link to="/terms-of-service">Terms of Service</Link></p>
+          <div className="w-full lg:w-1/3 mt-6 lg:mt-0">
+            <p className="text-gray-800 mb-2">&copy; 2023 Eximph Technologies. All rights reserved.</p>
+            <p>
+              <Link to="/privacy-policy" className="text-gray-800 hover:text-gray-600">Privacy Policy</Link> |
+              <Link to="/terms-of-service" className="text-gray-800 hover:text-gray-600"> Terms of Service</Link>
+            </p>
           </div>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
 export default Footer;

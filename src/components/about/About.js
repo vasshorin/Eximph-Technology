@@ -1,4 +1,5 @@
 import React from 'react';
+// import './About.css';
 import eximphLogo from '../../assets/logo.png';
 import solidDosageLine from '../../assets/solid-dosage-line.jpg';
 import oncologyLine from '../../assets/oncology-line.jpg';
