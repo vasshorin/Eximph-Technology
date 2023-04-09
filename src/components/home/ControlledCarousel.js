@@ -1,54 +1,48 @@
-import React, { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+import React from 'react'
+import { Carousel } from 'react-bootstrap'
+import banner1 from '../../assets/banner1.jpg'
+import './Home.css'
 
-function ControlledCarousel() {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
-
+const ControlledCarousel = () => {
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          className="d-block w-100 carousel-img"
+          src={banner1}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Advanced Machinery</h3>
+          <p>We offer the latest and most advanced pharmaceutical equipment.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="https://images.pexels.com/photos/208518/pexels-photo-208518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          className="d-block w-100 carousel-img"
+          src={banner1}
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Top-Quality Products</h3>
+          <p>Our products are manufactured to the highest standards of quality and safety.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          className="d-block w-100 carousel-img"
+          src="https://quarco.ru/assets/images/resources/47/1.jpg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>Global Reach</h3>
+          <p>We serve customers all around the world.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-  );
+  )
 }
 
-export default ControlledCarousel;
+export default ControlledCarousel
