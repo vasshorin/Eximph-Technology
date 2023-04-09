@@ -1,5 +1,4 @@
 import React from 'react';
-import ControlledCarousel from './ControlledCarousel';
 import jumbo from '../../assets/pexels-anna-shvets-3683056.jpg'
 
 const Home = () => {
