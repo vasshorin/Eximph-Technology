@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logo-wh.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -59,7 +60,7 @@ const Navbar = () => {
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0">
               <Link to="/" className="text-white font-bold text-xl">
-                Eximph Technologies
+                <img src={logo} alt="logo" className="h-8 w-auto" />
               </Link>
             </div>
             <div className="hidden sm:block sm:ml-6">
