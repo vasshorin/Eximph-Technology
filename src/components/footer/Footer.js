@@ -13,6 +13,7 @@ const Footer = () => {
               </ul>
           </div>
           <div className="col-md-6 text-center">
+            {/* TODO: CHANGE PHONE NUBMBER */}
             <p>Suite 803, Level 8, Chit Lee Commercial Building, No. 30-36 Shau Kei Wan Road, Sai Wan Ho, Hong Kong.| Phone: 555-555-5555 | Email: info@pharmamachinery.com</p>
           </div>
           <div className="col-md-3 text-end">
