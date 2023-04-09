@@ -4,6 +4,8 @@ import ControlledCarousel from './ControlledCarousel';
 const Home = () => {
   return (
     <div className="container mx-auto">
+      <br/>
+      
       <ControlledCarousel />
       <div className="mt-6">
         <h2 className="text-xl font-medium">Quick Products</h2>
