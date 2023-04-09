@@ -26,10 +26,6 @@ p {
   font-size: 1.2rem;
 }
 
-/* Footer */
-footer p {
-  font-size: 1rem;
-}
 
 @media (max-width: 767px) {
   /* Navbar */
