@@ -84,6 +84,12 @@ const Navbar = () => {
                 >
                   Products
                 </Link>
+                <Link
+                  to="/contact"
+                  className="text-white hover:bg-white-700 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                >
+                  Contact
+                </Link>
               </div>
             </div>
           </div>
@@ -115,6 +121,12 @@ const Navbar = () => {
               className="text-white hover:bg-white-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Products
+            </Link>
+            <Link
+              to="/contact"
+              className="text-white hover:bg-white-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            >
+              Contact
             </Link>
           </div>
         </div>
