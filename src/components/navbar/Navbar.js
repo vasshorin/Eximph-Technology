@@ -63,7 +63,7 @@ const Navbar = () => {
                 <img src={logo} alt="logo" className="h-8 w-auto" />
               </Link>
             </div>
-            <div className="hidden sm:block sm:ml-6">
+            <div className="hidden sm:block sm:ml-auto">
               <div className="flex space-x-4">
                 <Link
                   to="/"
