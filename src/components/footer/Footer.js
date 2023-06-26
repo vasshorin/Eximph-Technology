@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import './Footer.css';
 
 const Footer = () => {
   return (
@@ -25,13 +24,6 @@ const Footer = () => {
             <p className="text-white mb-2">Phone: +852-6823-8805</p>
             <p className="text-white mb-2">Email: info@eximph.com</p>
             <p className="text-white mb-2">Suite 803, Level 8, Chit Lee Commercial Building, No. 30-36 Shau Kei Wan Road, Sai Wan Ho, Hong Kong.</p>
-          </div>
-          <div className="w-full lg:w-1/3 mt-6 lg:mt-0">
-            <p className="text-white mb-2">&copy; 2023 Eximph Technologies. All rights reserved.</p>
-            <p>
-              <Link to="/privacy-policy" className="text-white hover:text-gray-600">Privacy Policy</Link> |
-              <Link to="/terms-of-service" className="text-white hover:text-gray-600"> Terms of Service</Link>
-            </p>
           </div>
         </div>
       </div>

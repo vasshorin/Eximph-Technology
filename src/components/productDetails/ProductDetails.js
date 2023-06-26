@@ -2,7 +2,6 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { products } from "../items.js";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "./ProductDetails.css";
 
 const ProductDetails = () => {
   const { id } = useParams();
