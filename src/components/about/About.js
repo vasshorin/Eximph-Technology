@@ -10,7 +10,7 @@ function About() {
   return (
     <>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10 mt-8">
+        <h1 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white mt-20">
           About Us
         </h1>
         <div className="flex flex-col md:flex-row mt-8">
@@ -24,7 +24,7 @@ function About() {
             Eximph Technologies is a global company that specializes in providing top-of-the-line pharmaceutical equipment to major producers in the industry. With years of experience and expertise, the company has established a strong reputation as a trusted partner for laboratories, production facilities, and manufacturers around the world.
           </p>
           <br />
-          <h2 className="text-xl leading-7 font-semibold text-gray-900">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Our Solutions
           </h2>
           <p className="mt-4 text-lg leading-7 text-gray-500">
