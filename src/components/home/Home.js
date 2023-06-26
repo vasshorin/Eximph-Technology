@@ -1,11 +1,63 @@
 import React from "react";
 import jumbo from "../../assets/pexels-anna-shvets-3683056.jpg";
 import { Link } from "react-router-dom";
+import { Features } from "../features/Features";
+import { TbTruckDelivery } from "react-icons/tb";
+import Partners from "./Partners";
+import QuickProducts from "./QuickProducts";
 
 const Home = () => {
   return (
-    <div className="container mx-auto">
-      <section class="bg-white dark:bg-gray-900">
+    <>
+
+      <div className="relative flex flex-col py-16 lg:pt-0 lg:flex-col lg:pb-0">
+        <div className="inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
+          <img
+            className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
+            src="https://images.pexels.com/photos/4021781/pexels-photo-4021781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+          />
+        </div>
+        <div className="flex flex-col items-start w-full max-w-xl px-4 mx-auto lg:px-8 lg:max-w-screen-xl">
+
+          <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
+            <div className="max-w-xl mb-6">
+              <div>
+
+              </div>
+              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                Welcome to
+                <br className="hidden md:block" />
+                Eximph {' '}
+                <span className="inline-block text-deep-purple-accent-400">
+                  Technologies
+                </span>
+              </h2>
+              <p className="text-base text-gray-700 md:text-lg">
+                We are a leading provider of pharmaceutical equipment and installation services, with a strong track record of delivering high-quality solutions to our clients.
+              </p>
+            </div>
+            <div className="flex flex-col items-center md:flex-row">
+              <Link
+                to="/contact"
+                className="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white hover:text-blue-300 transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-gray-800 focus:shadow-outline focus:outline-none "
+              >
+                Contact Us
+              </Link>
+              <Link
+                to="/about"
+                aria-label=""
+                className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-deep-purple-800"
+              >
+                Learn more
+              </Link>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div className="container mx-auto">
+        {/* <section class="bg-white dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 ">
           <div className="relative bg-blue-100 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
             <div className="absolute inset-0">
@@ -17,179 +69,55 @@ const Home = () => {
               <div className="absolute inset-0 bg-gray-900 bg-opacity-50"></div>
             </div>
             <div className="relative px-4 py-16 mx-auto max-w-screen-xl text-center sm:text-left">
-  <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-white">
-    <span className="block">Welcome to Eximph Technologies</span>
-    <span className="block text-blue-200">
-      Your trusted partner for top-of-the-line pharmaceutical equipment
-    </span>
-  </h1>
-</div>
+              <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-white">
+                <span className="block">Welcome to Eximph Technologies</span>
+                <span className="block text-blue-200">
+                  Your trusted partner for top-of-the-line pharmaceutical equipment
+                </span>
+              </h1>
+            </div>
 
           </div>
           <br />
 
-          <div class="grid md:grid-cols-2 gap-8">
-        <div class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
-  <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">
-    Why choose us?
-  </h2>
-  <p class="text-base md:text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-    We are a leading provider of pharmaceutical equipment and installation
-    services, with a strong track record of delivering high-quality solutions
-    to our clients.
-  </p>
-    <Link to="/about" class="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg md:text-xl inline-flex items-center">Learn More
-        
-    <svg
-      aria-hidden="true"
-      class="w-4 h-4 ml-2"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        d="M17 8l4 4m0 0l-4 4m4-4H3"
-      ></path>
-    </svg>
-    </Link>
-</div>
-
-            <div class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
-              <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">
-                Our expertise in pharmaceutical equipment
-              </h2>
-              <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Our team of experts has extensive experience in providing
-                pharmaceutical equipment solutions that meet the needs of our
-                clients. We only use the best technologies and equipment to
-                ensure top-quality installations.
-              </p>
-              <Link to="/about" class="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg md:text-xl inline-flex items-center">Learn More
-        
-        <svg
-          aria-hidden="true"
-          class="w-4 h-4 ml-2"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-          aria-hidden="true"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M17 8l4 4m0 0l-4 4m4-4H3"
-          ></path>
-        </svg>
-        </Link>
-            </div>
-          </div>
+         
         </div>
-      </section>
-      <div className="mt-12 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-xl font-medium">Quick Products</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-          <div className="bg-white rounded-lg shadow-lg">
-            <Link to="/products/1">
-              <img
-                src="https://quarco.ru/assets/images/resources/46/1.jpg"
-                alt="Product 1"
-                className="w-full rounded-t-lg"
-              />
-            </Link>
-            <div className="p-4">
-              <h3 className="text-xl font-medium mb-2">Dry granulation</h3>
-              {/* <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
-              <Link
-                to="/products/1"
-                className="inline-block mt-4 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-blue-700"
-              >
-                Learn More
-              </Link>
-            </div>
-          </div>
-          <div className="bg-white rounded-lg shadow-lg">
-            <Link to="/products/2">
-              <img
-                src="https://quarco.ru/assets/images/resources/45/3.jpg"
-                alt="Product 2"
-                className="w-full rounded-t-lg"
-              />
-            </Link>
-            <div className="p-4">
-              <h3 className="text-xl font-medium mb-2">Wet granulation</h3>
-              {/* <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
-              <Link
-                to="/products/2"
-                className="inline-block mt-4 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-blue-700"
-              >
-                Learn More
-              </Link>
-            </div>
-          </div>
-          <div className="bg-white rounded-lg shadow-lg">
-            <Link to="/products/3">
-              <img
-                src="https://quarco.ru/assets/images/resources/49/1.jpg"
-                alt="Product 3"
-                className="w-full rounded-t-lg"
-              />
-            </Link>
-            <div className="p-4">
-              <h3 className="text-xl font-medium mb-2">Deduster</h3>
-              {/* <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
-              <Link
-                to="/products/3"
-                className="inline-block mt-4 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-blue-700"
-              >
-                Learn More
-              </Link>
-            </div>
-          </div>
+      </section> */}
+        <Features />
+        {/* <section class="bg-white dark:bg-gray-900">
+    <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+        <img class="w-full dark:hidden" src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="dashboard image" / >
+        <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image" />
+        <div class="mt-4 md:mt-0">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Let us help you find the right product for your factory.</h2>
+            <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
+            <a href="#" class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                Get started
+                <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
         </div>
-      </div>
-      <br />
-      <br />
-      <div className="mt-12 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-xl font-medium">Our Partners</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 justify-items-center mt-4">
-          <div className="flex justify-center">
-            <img
-              src="https://quarco.ru/assets/templates/images/partners/Hi.svg"
-              alt="Partner 1"
-              className="object-contain h-16"
-            />
-          </div>
-          <div className="flex justify-center">
-            <img
-              src="https://quarco.ru/assets/templates/images/partners/SMA.svg"
-              alt="Partner 2"
-              className="object-contain h-16"
-            />
-          </div>
-          <div className="flex justify-center">
-            <img
-              src="https://quarco.ru/assets/templates/images/partners/JY.svg"
-              alt="Partner 3"
-              className="object-contain h-16"
-            />
-          </div>
-          <div className="flex justify-center">
-            <img
-              src="https://quarco.ru/assets/templates/images/partners/Xia.svg"
-              alt="Partner 4"
-              className="object-contain h-16"
-            />
-          </div>
-        </div>
-      </div>
     </div>
+</section> */}
+       <Partners />
+       <section class="bg-white dark:bg-gray-900">
+  <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+    <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Empowering Pharmaceutical Excellence</h2>
+      <p class="mb-4">Eximph Technologies stands as a global powerhouse, empowering major players in the pharmaceutical industry with cutting-edge equipment solutions. Our unwavering commitment to excellence has solidified our position as the preferred partner for laboratories, production facilities, and manufacturers worldwide.</p>
+      <p>We take pride in our comprehensive range of solutions tailored to the unique requirements of each client, spanning from precision laboratory-scale equipment to high-capacity production lines. Meticulously engineered for unrivaled precision, unwavering reliability, and optimum efficiency, our systems guarantee consistent dose delivery in strict adherence to the most stringent industry standards.</p>
+    </div>
+    <div class="grid grid-cols-2 gap-4 mt-8">
+      <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1" />
+      <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
+    </div>
+  </div>
+</section>
+        <QuickProducts />
+        <br />
+        <br />
+
+      </div>
+    </>
   );
 };
 
