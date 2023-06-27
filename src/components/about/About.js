@@ -33,54 +33,54 @@ function About() {
         </div>
       </div>
 
-      
+
       <div class="justify-center flex-1 w-full py-4 mx-auto lg:py-6 md:px-6 shadow-md">
-  <div class="flex flex-wrap">
-    <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-      <img src={packaging} alt="" class="relative z-40 object-cover w-full h-96 rounded-3xl" />
-    </div>
-    <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-      <h2 class="mb-4 text-4xl font-semibold text-blue-500 dark:text-gray-300">
-        Advanced Packaging Solutions
-      </h2>
-      <p class="mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
-        Our advanced packaging solutions are designed to meet the diverse needs of each client, spanning from laboratory-scale equipment to large-scale production lines. These systems are meticulously engineered to provide exceptional accuracy, reliability, and efficiency, ensuring consistent delivery of each dose in compliance with stringent standards.
-      </p>
-    </div>
-  </div>
-</div>
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
+            <img src={packaging} alt="" class="relative z-40 object-cover w-full h-96 rounded-3xl" />
+          </div>
+          <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
+            <h2 class="mb-4 text-4xl font-semibold text-black-500 dark:text-gray-300">
+              Advanced Packaging Solutions
+            </h2>
+            <p class="mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
+              Our advanced packaging solutions are designed to meet the diverse needs of each client, spanning from laboratory-scale equipment to large-scale production lines. These systems are meticulously engineered to provide exceptional accuracy, reliability, and efficiency, ensuring consistent delivery of each dose in compliance with stringent standards.
+            </p>
+          </div>
+        </div>
+      </div>
 
-<div class="justify-center flex-1 w-full py-4 mx-auto lg:py-6 md:px-6 shadow-md">
-  <div class="flex flex-wrap">
-    <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-      <h2 class="mb-4 text-4xl font-semibold text-blue-500 dark:text-gray-300">
-        Customized Solid Dosage Production Lines
-      </h2>
-      <p class="mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
-        Our customized solid dosage production lines are tailored to meet the unique requirements of each client, ranging from laboratory-scale equipment to large-scale production lines. These systems are meticulously engineered to ensure unparalleled accuracy, reliability, and efficiency, guaranteeing consistent delivery of each dose in accordance with the strictest standards.
-      </p>
-    </div>
-    <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-      <img src={solidDosageLine} alt="" class="relative z-40 object-cover w-full h-96 rounded-3xl" />
-    </div>
-  </div>
-</div>
+      <div class="justify-center flex-1 w-full py-4 mx-auto lg:py-6 md:px-6 shadow-md">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
+            <h2 class="mb-4 text-4xl font-semibold text-black-500 dark:text-gray-300">
+              Customized Solid Dosage Production Lines
+            </h2>
+            <p class="mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
+              Our customized solid dosage production lines are tailored to meet the unique requirements of each client, ranging from laboratory-scale equipment to large-scale production lines. These systems are meticulously engineered to ensure unparalleled accuracy, reliability, and efficiency, guaranteeing consistent delivery of each dose in accordance with the strictest standards.
+            </p>
+          </div>
+          <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
+            <img src={solidDosageLine} alt="" class="relative z-40 object-cover w-full h-96 rounded-3xl" />
+          </div>
+        </div>
+      </div>
 
-<div class="justify-center flex-1 w-full py-4 mx-auto lg:py-6 md:px-6 shadow-md">
-  <div class="flex flex-wrap">
-    <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-      <img src={foodProcessingMachine} alt="" class="relative z-40 object-cover w-full h-96 rounded-3xl" />
-    </div>
-    <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-      <h2 class="mb-4 text-4xl font-semibold text-blue-500 dark:text-gray-300">
-        Cutting-Edge Food Processing Machines
-      </h2>
-      <p class="mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
-        Our cutting-edge food processing machines are specifically designed to cater to the unique requirements of the food industry, incorporating features such as controlled environment manufacturing, specialized coatings, and precision dosing. These machines ensure optimal performance and quality in food processing operations.
-      </p>
-    </div>
-  </div>
-</div>
+      <div class="justify-center flex-1 w-full py-4 mx-auto lg:py-6 md:px-6 shadow-md">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
+            <img src={foodProcessingMachine} alt="" class="relative z-40 object-cover w-full h-96 rounded-3xl" />
+          </div>
+          <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
+            <h2 class="mb-4 text-4xl font-semibold text-black-500 dark:text-gray-300">
+              Cutting-Edge Food Processing Machines
+            </h2>
+            <p class="mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
+              Our cutting-edge food processing machines are specifically designed to cater to the unique requirements of the food industry, incorporating features such as controlled environment manufacturing, specialized coatings, and precision dosing. These machines ensure optimal performance and quality in food processing operations.
+            </p>
+          </div>
+        </div>
+      </div>
 
     </>
   );
