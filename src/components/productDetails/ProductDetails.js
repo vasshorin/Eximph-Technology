@@ -26,17 +26,25 @@ const ProductDetails = () => {
     <div className="bg-gray-50 min-h-screen">
       <div className="container mx-auto py-10 px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
-          <Carousel showArrows infiniteLoop>
-            {product.images.map((image, index) => (
-              <div key={index}>
-                <img
-                  className="product-image"
-                  src={image.imageUrl}
-                  alt={product.name}
-                />
-              </div>
-            ))}
-          </Carousel>
+          {product.images.length > 1 ? (
+            <Carousel showArrows infiniteLoop>
+              {product.images.map((image, index) => (
+                <div key={index}>
+                  <img
+                    className="product-image"
+                    src={image.imageUrl}
+                    alt={product.name}
+                  />
+                </div>
+              ))}
+            </Carousel>
+          ) : (
+            <img
+              className="product-image"
+              src={product.images[0].imageUrl}
+              alt={product.name}
+            />
+          )}
           <div>
             <h1 className="text-3xl font-bold text-gray-900 mb-4">
               {product.name}
