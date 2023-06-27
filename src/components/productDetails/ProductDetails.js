@@ -23,8 +23,8 @@ const ProductDetails = () => {
   });
 
   return (
-    <div className="bg-gray-50 min-h-screen">
-      <div className="container mx-auto py-10 px-4">
+    <div className="bg-gray-50 min-h-screen ">
+      <div className="container mx-auto py-10 px-4 my-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
           {product.images.length > 1 ? (
             <Carousel showArrows infiniteLoop>
