@@ -12,9 +12,10 @@ import { products } from './components/items';
 
 function App() {
   return (
-    <div className="container">
+    <>
       <BrowserRouter>
         <Navbar />
+        <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -22,9 +23,10 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/products/:id" element={<ProductDetails />} />
         </Routes>
+        </div>
         <Footer />
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 

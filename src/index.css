@@ -31,6 +31,10 @@ p {
   font-size: 1.2rem;
 }
 
+.container {
+  width: 100%;
+}
+
 
 @media (max-width: 767px) {
   /* Navbar */
