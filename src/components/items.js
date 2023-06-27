@@ -249,6 +249,11 @@ export const products = [
       id: 5,
       name: 'Deblistering machine',
       imageUrl: 'https://quarco.ru/assets/images/resources/52/1.jpg',
+      images: [
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/52/1.jpg',
+        },
+      ],
       description: 'The C&C400 series blister packer is designed to remove tablets and capsules from blister packs made of PVC or aluminum foil. It allows quick format change of loaded packages, automatic separation of packages and their contents.',
       advantages: 'Reliable and safe machine operation. Suitable for processing a large number of package formats. Conforms to GMP.',
       specs: [
@@ -258,6 +263,12 @@ export const products = [
       id: 6,
       name: 'Automatic decasplulator',
       imageUrl: 'https://quarco.ru/assets/images/resources/53/1.jpg',
+      images: [
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/53/1.jpg',
+        },
+      ],
+
       description: 'The automatic decapsulator C&C400 is designed for automatic separation of defective capsules into upper and lower halves, the drug content of which, after subsequent sifting, is suitable for secondary encapsulation. The equipment is equipped with safety and signaling devices. All main working areas of the machine are made of stainless steel in accordance with GMP requirements.',
       advantages: 'The capsules coming through the transport chute from the sorter are pushed into the separating device by a forked gripper. As they move forward, the upper and lower capsule halves are individually clamped by the separating blades and continue to move along the guide formed by these blades until the halves are completely separated.',
       specs: [
@@ -267,6 +278,14 @@ export const products = [
       id: 7,
       name: 'Rotary tablet press',
       imageUrl: 'https://quarco.ru/assets/images/resources/54/1.jpg',
+      images: [
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/54/1.jpg',
+        },
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/54/2.jpg',
+        }
+      ],
       description: 'The C&C800 series rotary tablet press is designed for the production of tablets up to 25 mm in diameter. The C&C800 rotary tablet presses are mainly used in the pharmaceutical industry. They can also be used in the chemical, food, electronic and metallurgical industries.       This tablet press is designed to form a wide range of tablets from granular raw materials: flat-cylindrical, profiled, shaped, as well as with chamfers and risks on both sides.',
       advantages: `Tablet  weight error ±1%. Maximum permissible weight difference between tablets: <0.3g ±5%, 0.3g ±3%.
       Rotor, feeder and punches as well as granulate hopper and other parts in contact with the product are made of stainless steel AISI316L.
@@ -279,6 +298,14 @@ export const products = [
       id: 8,
       name: 'Single station laboratory press',
       imageUrl: 'https://quarco.ru/assets/images/resources/55/1.jpg',
+      images: [
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/55/1.jpg',
+        },
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/55/2.jpg',
+        },
+      ],
       description: `The C&C600 series single station laboratory tablet press is a continuous duty machine with a completely new type of design.
       It is designed for the pharmaceutical, chemical, electronic and food industries, as well as for laboratories with the need to make tablets from powdered or granular raw materials.
       The presence of a protective enclosure that ensures the safety of the equipment and the operator. Thoughtful design, high level of robotization.
@@ -300,6 +327,14 @@ export const products = [
       id: 9,
       name: 'Capsule filling machine',
       imageUrl: 'https://quarco.ru/assets/images/resources/43/1.jpg',
+      images: [
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/43/1.jpg',
+        },
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/43/2.jpg',
+        },
+      ],
       description: `Eximph Techbologies offers CFM series hard gelatin capsule filling machines under the QUARCO brand name. This equipment is designed for filling solid gelatin capsules with powder and pellets. The machine is designed for use in medium to large scale pharmaceutical production and meets all GMP requirements.`,
       advantages: `The changes made to the machine design and the use of gearboxes and drives from leading world manufacturers have allowed us to achieve a reduction in vibration and noise, ensure virtually smooth operation of the main components, and increase the time interval between preventive maintenance of these elements.
       Compact dimensions;
