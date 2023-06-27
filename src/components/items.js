@@ -4,6 +4,17 @@ export const products = [
       id: 1,
       name: 'Dry-granulation',
       imageUrl: 'https://quarco.ru/assets/images/resources/46/1.jpg',
+      images: [
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/46/1.jpg',
+        },
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/46/1.jpg',
+        },
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/46/1.jpg',
+        },
+      ],
       description: 'Eximph Technologies offers the FB, FBG and FBGP series fluid bed dryers. These machines are designed for pelletizing substances and drying the resulting granules as well as mixing the substances in a fluidized bed. The dryers of the presented series differ in their functionality and purpose, FB series: drying of granulate, FBG series: drying and granulation, FBGP series: drying and production of granulate, coating of granulate and production of pellets. This equipment is widely used in the pharmaceutical and food industry, as well as the production of dietary supplements and compound feeds.',
       advantages: ' BENEFITS Drying, granulation and casing processes are extremely important in the production of solids because the loss of auxiliary substances and active, expensive ingredients must be minimized during the processes. Fluidized bed drying is the most efficient method of drying solids. In this process, the liquid is removed from the surface of each pellet. Fluid bed drying has undoubted and obvious advantages: excellent heat transfer, ideal drying times, gentle and efficient product processing, which is especially important for temperature-sensitive materials. In addition, the fluidized bed principle allows drying under delicate conditions, without damaging the granule structure, and ensures uniform drying of the granulate layer.',
       specs: [
@@ -19,6 +30,17 @@ export const products = [
       id: 2,
       name: 'Wet-granulation',
       imageUrl: 'https://quarco.ru/assets/images/resources/45/3.jpg',
+      images: [
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/45/3.jpg',
+        },
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/45/1.jpg',
+        },
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/45/2.jpg',
+        },
+      ],
       description: 'Exmiph Pharmacy offers wet granulation mixers. These mixers are designed for mixing substances and powdered materials and their subsequent granulation for the production of medicines. The use of this equipment is relevant for companies in the pharmaceutical, chemical, food, ceramic industries, as well as for the production of products from metal powders.',
       advantages: `Availability of a conical material container; 
       Automatic system of raising the lid of the tank by means of a pneumatic cylinder; 
@@ -116,6 +138,14 @@ export const products = [
       id: 3,
       name: 'Deduster',
       imageUrl: 'https://quarco.ru/assets/images/resources/49/1.jpg',
+      images: [
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/49/1.jpg',
+        },
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/49/2.jpg',
+        },
+      ],
       description: 'The C&C200G series is the latest model with an advanced design.  They have the dual function of dedusting and moving pellets from bottom to top. The inlet of the dedusting machine can be adjusted to the output height of any model of tablet press, the output is combined with metal detector. In this way, a production line can be assembled to ensure the dedusting and lifting of tablets as well as metal detecting.',
       advantages: `The housing and hood of the machine have a block design;
       The height of the pellet outlet is easily adjustable;
@@ -198,6 +228,14 @@ export const products = [
       id: 4,
       name: 'Capsule polisher',
       imageUrl: 'https://quarco.ru/assets/images/resources/51/1.jpg',
+      images: [
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/51/1.jpg',
+        },
+        {
+          imageUrl: 'https://quarco.ru/assets/images/resources/51/2.jpg',
+        },
+      ],
       description: 'The C&C100C series capsule polishers combine the dual functions of capsule polishing and lifting. The input of the polisher can be connected to any model of capsule filling machine, and the output to the capsule sorter and metal detector. Thus, it is possible to build a production line providing polishing, lifting, capsule sorting as well as metal particle detection. The model is designed with a number of advanced technologies and advances in robotics.',
       advantages: `Two functions: polishing and capsule lifting;
       Compact design, freeing up additional space to accommodate equipment to be connected at the back;

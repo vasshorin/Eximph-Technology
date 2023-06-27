@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { products } from "../items.js";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -25,11 +26,17 @@ const ProductDetails = () => {
     <div className="bg-gray-50 min-h-screen">
       <div className="container mx-auto py-10 px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
-          <img
-            className="product-image"
-            src={product.imageUrl}
-            alt={product.name}
-          />
+          <Carousel showArrows infiniteLoop>
+            {product.images.map((image, index) => (
+              <div key={index}>
+                <img
+                  className="product-image"
+                  src={image.imageUrl}
+                  alt={product.name}
+                />
+              </div>
+            ))}
+          </Carousel>
           <div>
             <h1 className="text-3xl font-bold text-gray-900 mb-4">
               {product.name}
