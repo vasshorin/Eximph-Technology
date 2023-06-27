@@ -7,7 +7,7 @@ const QuickProducts = () => {
     <div className="mt-12 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-xl font-medium">Quick Products</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-            <div className="bg-white rounded-lg shadow-lg">
+            <div className="bg-white rounded-lg shadow-lg trasition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
               <Link to="/products/1">
                 <img
                   src="https://quarco.ru/assets/images/resources/46/1.jpg"
@@ -26,7 +26,7 @@ const QuickProducts = () => {
                 </Link>
               </div>
             </div>
-            <div className="bg-white rounded-lg shadow-lg">
+            <div className="bg-white rounded-lg shadow-lg trasition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
               <Link to="/products/2">
                 <img
                   src="https://quarco.ru/assets/images/resources/45/3.jpg"
@@ -45,7 +45,7 @@ const QuickProducts = () => {
                 </Link>
               </div>
             </div>
-            <div className="bg-white rounded-lg shadow-lg">
+            <div className="bg-white rounded-lg shadow-lg trasition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
               <Link to="/products/3">
                 <img
                   src="https://quarco.ru/assets/images/resources/49/1.jpg"
