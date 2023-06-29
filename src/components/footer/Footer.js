@@ -18,7 +18,6 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        {/* Add subscrive to email here */}
         <div className="lg:w-1/3">
           <h3 className="text-white text-lg font-bold mb-4">Subscribe</h3>
           <p className="text-gray-400 mb-2">Get the latest news and updates.</p>
