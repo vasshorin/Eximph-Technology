@@ -15,7 +15,7 @@ export const products = [
           imageUrl: 'https://quarco.ru/assets/images/resources/46/1.jpg',
         },
       ],
-      description: 'Eximph Technologies offers the FB, FBG and FBGP series fluid bed dryers. These machines are designed for pelletizing substances and drying the resulting granules as well as mixing the substances in a fluidized bed. The dryers of the presented series differ in their functionality and purpose, FB series: drying of granulate, FBG series: drying and granulation, FBGP series: drying and production of granulate, coating of granulate and production of pellets. This equipment is widely used in the pharmaceutical and food industry, as well as the production of dietary supplements and compound feeds.',
+      description: 'Eximph Technology offers the FB, FBG and FBGP series fluid bed dryers. These machines are designed for pelletizing substances and drying the resulting granules as well as mixing the substances in a fluidized bed. The dryers of the presented series differ in their functionality and purpose, FB series: drying of granulate, FBG series: drying and granulation, FBGP series: drying and production of granulate, coating of granulate and production of pellets. This equipment is widely used in the pharmaceutical and food industry, as well as the production of dietary supplements and compound feeds.',
       advantages: ' BENEFITS Drying, granulation and casing processes are extremely important in the production of solids because the loss of auxiliary substances and active, expensive ingredients must be minimized during the processes. Fluidized bed drying is the most efficient method of drying solids. In this process, the liquid is removed from the surface of each pellet. Fluid bed drying has undoubted and obvious advantages: excellent heat transfer, ideal drying times, gentle and efficient product processing, which is especially important for temperature-sensitive materials. In addition, the fluidized bed principle allows drying under delicate conditions, without damaging the granule structure, and ensures uniform drying of the granulate layer.',
       specs: [
         // {
@@ -41,7 +41,7 @@ export const products = [
           imageUrl: 'https://quarco.ru/assets/images/resources/45/2.jpg',
         },
       ],
-      description: 'Exmiph Pharmacy offers wet granulation mixers. These mixers are designed for mixing substances and powdered materials and their subsequent granulation for the production of medicines. The use of this equipment is relevant for companies in the pharmaceutical, chemical, food, ceramic industries, as well as for the production of products from metal powders.',
+      description: 'Eximph Technology offers wet granulation mixers. These mixers are designed for mixing substances and powdered materials and their subsequent granulation for the production of medicines. The use of this equipment is relevant for companies in the pharmaceutical, chemical, food, ceramic industries, as well as for the production of products from metal powders.',
       advantages: `Availability of a conical material container; 
       Automatic system of raising the lid of the tank by means of a pneumatic cylinder; 
       The presence of the jacket of the main tank, which allows to heat or cool the product during its processing (Optional); 
@@ -335,7 +335,7 @@ export const products = [
           imageUrl: 'https://quarco.ru/assets/images/resources/43/2.jpg',
         },
       ],
-      description: `Eximph Techbologies offers CFM series hard gelatin capsule filling machines under the QUARCO brand name. This equipment is designed for filling solid gelatin capsules with powder and pellets. The machine is designed for use in medium to large scale pharmaceutical production and meets all GMP requirements.`,
+      description: `Eximph Technology offers CFM series hard gelatin capsule filling machines under the QUARCO brand name. This equipment is designed for filling solid gelatin capsules with powder and pellets. The machine is designed for use in medium to large scale pharmaceutical production and meets all GMP requirements.`,
       advantages: `The changes made to the machine design and the use of gearboxes and drives from leading world manufacturers have allowed us to achieve a reduction in vibration and noise, ensure virtually smooth operation of the main components, and increase the time interval between preventive maintenance of these elements.
       Compact dimensions;
       Quick changeover from one format to another;
