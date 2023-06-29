@@ -3,13 +3,13 @@ import jumbo from "../../assets/pexels-anna-shvets-3683056.jpg";
 import { Link } from "react-router-dom";
 import { Features } from "../features/Features";
 import { TbTruckDelivery } from "react-icons/tb";
+import ControlledCarousel from "./ControlledCarousel";
 import Partners from "./Partners";
 import QuickProducts from "./QuickProducts";
 
 const Home = () => {
   return (
     <>
-
       <div className="relative flex flex-col py-16 lg:pt-0 lg:flex-col lg:pb-0">
         <div className="inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
           <img
@@ -57,61 +57,21 @@ const Home = () => {
 
       </div>
       <div className="container mx-auto">
-        {/* <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 ">
-          <div className="relative bg-blue-100 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
-            <div className="absolute inset-0">
-              <img
-                className="w-full h-full object-cover"
-                src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Background"
-              />
-              <div className="absolute inset-0 bg-gray-900 bg-opacity-50"></div>
-            </div>
-            <div className="relative px-4 py-16 mx-auto max-w-screen-xl text-center sm:text-left">
-              <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-white">
-                <span className="block">Welcome to Eximph Technologies</span>
-                <span className="block text-blue-200">
-                  Your trusted partner for top-of-the-line pharmaceutical equipment
-                </span>
-              </h1>
-            </div>
-
-          </div>
-          <br />
-
-         
-        </div>
-      </section> */}
         <Features />
-        {/* <section class="bg-white dark:bg-gray-900">
-    <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-        <img class="w-full dark:hidden" src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="dashboard image" / >
-        <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image" />
-        <div class="mt-4 md:mt-0">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Let us help you find the right product for your factory.</h2>
-            <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
-            <a href="#" class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
-                Get started
-                <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </a>
-        </div>
-    </div>
-</section> */}
-       <Partners />
-       <section class="bg-white dark:bg-gray-900">
-  <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-    <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Empowering Pharmaceutical Excellence</h2>
-      <p class="mb-4">Eximph Technologies stands as a global powerhouse, empowering major players in the pharmaceutical industry with cutting-edge equipment solutions. Our unwavering commitment to excellence has solidified our position as the preferred partner for laboratories, production facilities, and manufacturers worldwide.</p>
-      <p>We take pride in our comprehensive range of solutions tailored to the unique requirements of each client, spanning from precision laboratory-scale equipment to high-capacity production lines. Meticulously engineered for unrivaled precision, unwavering reliability, and optimum efficiency, our systems guarantee consistent dose delivery in strict adherence to the most stringent industry standards.</p>
-    </div>
-    <div class="grid grid-cols-2 gap-4 mt-8">
-      <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1" />
-      <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
-    </div>
-  </div>
-</section>
+        <Partners />
+        <section class="bg-white dark:bg-gray-900">
+          <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+            <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+              <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Empowering Pharmaceutical Excellence</h2>
+              <p class="mb-4">Eximph Technologies stands as a global powerhouse, empowering major players in the pharmaceutical industry with cutting-edge equipment solutions. Our unwavering commitment to excellence has solidified our position as the preferred partner for laboratories, production facilities, and manufacturers worldwide.</p>
+              <p>We take pride in our comprehensive range of solutions tailored to the unique requirements of each client, spanning from precision laboratory-scale equipment to high-capacity production lines. Meticulously engineered for unrivaled precision, unwavering reliability, and optimum efficiency, our systems guarantee consistent dose delivery in strict adherence to the most stringent industry standards.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-4 mt-8">
+              <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1" />
+              <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
+            </div>
+          </div>
+        </section>
         <QuickProducts />
         <br />
         <br />
