@@ -1,9 +1,6 @@
 import React from "react";
-import jumbo from "../../assets/pexels-anna-shvets-3683056.jpg";
 import { Link } from "react-router-dom";
 import { Features } from "../features/Features";
-import { TbTruckDelivery } from "react-icons/tb";
-import ControlledCarousel from "./ControlledCarousel";
 import Partners from "./Partners";
 import QuickProducts from "./QuickProducts";
 
