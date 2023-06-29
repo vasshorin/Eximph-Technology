@@ -7,11 +7,13 @@ import 'tailwindcss/tailwind.css';
 import { ThemeProvider } from "@material-tailwind/react";
 import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(
+const container = document.getElementById('root');
+const root = createRoot(container);
+
+root.render(
   <React.StrictMode>
     <ThemeProvider>
       <App />
       </ThemeProvider>
   </React.StrictMode>,
-  document.getElementById('root')
 );

@@ -34,7 +34,7 @@ function About() {
       </div>
 
 
-      <div className="justify-center flex-1 w-full py-4 mx-auto lg:py-6 md:px-6 shadow-md">
+      <div className="justify-center flex-1 w-full py-4 mx-auto lg:py-6 md:px-6 shadow-sm">
         <div className="flex flex-wrap">
           <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
             <img src={packaging} alt="" className="relative z-40 object-cover w-full h-96 rounded-3xl" />
@@ -50,7 +50,7 @@ function About() {
         </div>
       </div>
 
-      <div className="justify-center flex-1 w-full py-4 mx-auto lg:py-6 md:px-6 shadow-md">
+      <div className="justify-center flex-1 w-full py-4 mx-auto lg:py-6 md:px-6 shadow-sm">
         <div className="flex flex-wrap">
           <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
             <h2 className="mb-4 text-4xl font-semibold text-black-500 dark:text-gray-300">
@@ -66,7 +66,7 @@ function About() {
         </div>
       </div>
 
-      <div className="justify-center flex-1 w-full py-4 mx-auto lg:py-6 md:px-6 shadow-md">
+      <div className="justify-center flex-1 w-full py-4 mx-auto lg:py-6 md:px-6 shadow-sm">
         <div className="flex flex-wrap">
           <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
             <img src={foodProcessingMachine} alt="" className="relative z-40 object-cover w-full h-96 rounded-3xl" />
