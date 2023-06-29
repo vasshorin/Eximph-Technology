@@ -19,6 +19,8 @@ const ProductDetails = () => {
           {advantage.trim()}
         </li>
       );
+    } else {
+      return null;
     }
   });
 

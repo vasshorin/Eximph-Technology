@@ -1,4 +1,3 @@
-import dedusterTable from '../assets/deduster-table.jpg';
 export const products = [
     {
       id: 1,

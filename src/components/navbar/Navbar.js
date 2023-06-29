@@ -5,6 +5,13 @@ import logo from '../../assets/logo-wh.png';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }
+
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -59,7 +66,7 @@ const Navbar = () => {
           </div>
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0">
-              <Link to="/" className="text-white font-bold text-xl">
+              <Link to="/" className="text-white font-bold text-xl" onClick={scrollToTop}>
                 <img src={logo} alt="logo" className="h-8 w-auto" />
               </Link>
             </div>
@@ -68,6 +75,7 @@ const Navbar = () => {
                 <Link
                   to="/"
                   className="text-white hover:bg-white-700 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                  onClick={scrollToTop}
                   aria-current="page"
                 >
                   Home
@@ -75,18 +83,21 @@ const Navbar = () => {
                 <Link
                   to="/about"
                   className="text-white hover:bg-white-700 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                  onClick={scrollToTop}
                 >
                   About
                 </Link>
                 <Link
                   to="/products"
                   className="text-white hover:bg-white-700 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                  onClick={scrollToTop}
                 >
                   Products
                 </Link>
                 <Link
                   to="/contact"
                   className="text-white hover:bg-white-700 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                  onClick={scrollToTop}
                 >
                   Contact
                 </Link>
@@ -104,6 +115,7 @@ const Navbar = () => {
             <Link
               to="/"
               className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              onClick={scrollToTop}
               aria-current="page"
             >
               Home
@@ -112,6 +124,7 @@ const Navbar = () => {
             <Link
               to="/about"
               className="text-white hover:bg-white-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              onClick={scrollToTop}
             >
               About
             </Link>
@@ -119,12 +132,14 @@ const Navbar = () => {
             <Link
               to="/products"
               className="text-white hover:bg-white-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              onClick={scrollToTop}
             >
               Products
             </Link>
             <Link
               to="/contact"
               className="text-white hover:bg-white-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              onClick={scrollToTop}
             >
               Contact
             </Link>
