@@ -22,6 +22,12 @@ const ProductDetails = () => {
     }
   });
 
+  const handleQuoteRequest = () => {
+    const subject = encodeURIComponent(`Quote Request - ${product.name}`);
+    const mailtoLink = `mailto:info@eximph.com?subject=${subject}`;
+    window.location.href = mailtoLink;
+  };
+
   return (
     <div className="bg-gray-50 min-h-screen ">
       <div className="container mx-auto py-10 px-4 my-8">
@@ -56,7 +62,7 @@ const ProductDetails = () => {
             <ul className="list-disc pl-5">{advantagesList}</ul>
             <br />
             {product.specs.length > 0 ? (
-              <table>
+              <table className="py-4">
                 <tbody>
                   {product.specs.map((spec, index) => (
                     <tr
@@ -78,6 +84,13 @@ const ProductDetails = () => {
                 </tbody>
               </table>
             ) : null}
+            
+            <button
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-4"
+              onClick={handleQuoteRequest}
+            >
+              Request a quote
+            </button>
           </div>
         </div>
       </div>
