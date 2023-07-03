@@ -1,4 +1,8 @@
 import React from 'react'
+import hifi from '../../assets/partners/hifi.svg'
+import sma from '../../assets/partners/SMA.svg'
+import zy from '../../assets/partners/ZY.svg'
+import xia from '../../assets/partners/Xia.svg'
 
 const Partners = () => {
   return (
@@ -7,28 +11,28 @@ const Partners = () => {
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 justify-items-center mt-4">
       <div className="flex justify-center">
         <img
-          src="https://quarco.ru/assets/templates/images/partners/Hi.svg"
+          src={hifi}
           alt="Partner 1"
           className="object-contain h-16"
         />
       </div>
       <div className="flex justify-center">
         <img
-          src="https://quarco.ru/assets/templates/images/partners/SMA.svg"
+          src={sma}
           alt="Partner 2"
           className="object-contain h-16"
         />
       </div>
       <div className="flex justify-center">
         <img
-          src="https://quarco.ru/assets/templates/images/partners/JY.svg"
+          src={zy}
           alt="Partner 3"
           className="object-contain h-16"
         />
       </div>
       <div className="flex justify-center">
         <img
-          src="https://quarco.ru/assets/templates/images/partners/Xia.svg"
+          src={xia}
           alt="Partner 4"
           className="object-contain h-16"
         />

@@ -325,7 +325,7 @@ export const products = [
           image: require('../assets/products/capsule/c1.jpg'),
         },
       ],
-      description: `Eximph Technology offers CFM series hard gelatin capsule filling machines under the QUARCO brand name. This equipment is designed for filling solid gelatin capsules with powder and pellets. The machine is designed for use in medium to large scale pharmaceutical production and meets all GMP requirements.`,
+      description: `Eximph Technology offers CFM series hard gelatin capsule filling machines. This equipment is designed for filling solid gelatin capsules with powder and pellets. The machine is designed for use in medium to large scale pharmaceutical production and meets all GMP requirements.`,
       advantages: `The changes made to the machine design and the use of gearboxes and drives from leading world manufacturers have allowed us to achieve a reduction in vibration and noise, ensure virtually smooth operation of the main components, and increase the time interval between preventive maintenance of these elements.
       Compact dimensions;
       Quick changeover from one format to another;
