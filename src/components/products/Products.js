@@ -9,8 +9,9 @@ const Product = ({ product }) => {
         <div className="card rounded-3">
           <img src={product.imageUrl} className="card-img-top rounded-top-3" alt={product.name} />
           <div className="card-body">
-            <h5 className="card-title">{product.name}</h5>
+            <h1 className="text-xl">{product.name}</h1>
             {/* <p className="card-text">{product.description}</p> */}
+            <button className="inline-block mt-4 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-blue-700">View Product</button>
           </div>
         </div>
       </Link>
