@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Features } from "../features/Features";
+import h1 from "../../assets/images/h1.jpg";
+import h2 from "../../assets/images/h2.jpg";
 import Partners from "./Partners";
 import QuickProducts from "./QuickProducts";
 
@@ -64,8 +66,8 @@ const Home = () => {
               <p>We take pride in our comprehensive range of solutions tailored to the unique requirements of each client, spanning from precision laboratory-scale equipment to high-capacity production lines. Meticulously engineered for unrivaled precision, unwavering reliability, and optimum efficiency, our systems guarantee consistent dose delivery in strict adherence to the most stringent industry standards.</p>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <img className="w-full rounded-lg" src="https://images.unsplash.com/photo-1528130723281-f9ffa133d787?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="office content 1" />
-              <img className="w-full lg:mt-20 rounded-lg" src="https://images.unsplash.com/photo-1547895749-888a559fc2a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="office content 2" />
+              <img className="w-full rounded-lg" src={h1} alt="Pexels office" />
+              <img className="w-full lg:mt-20 rounded-lg" src={h2} alt="Pexels factory" />
             </div>
           </div>
         </section>
