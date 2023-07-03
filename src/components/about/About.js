@@ -21,14 +21,14 @@ function About() {
         <br />
         <div className="mt-8">
           <p className="text-lg leading-7 text-gray-500">
-            Eximph Technologies is a global company that specializes in providing top-of-the-line pharmaceutical equipment to major producers in the industry. With years of experience and expertise, the company has established a strong reputation as a trusted partner for laboratories, production facilities, and manufacturers around the world.
+            Eximph Technology is a global company that specializes in providing top-of-the-line pharmaceutical equipment to major producers in the industry. With years of experience and expertise, the company has established a strong reputation as a trusted partner for laboratories, production facilities, and manufacturers around the world.
           </p>
           <br />
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Our Solutions
           </h2>
           <p className="mt-4 text-lg leading-7 text-gray-500">
-            At Eximph Technologies, we offer a range of solutions designed to meet the specific needs of each client, from laboratory-scale equipment to large-scale production lines. Our systems are engineered to provide the highest levels of accuracy, reliability, and efficiency, ensuring that each dose is delivered consistently and according to strict standards.
+            At Eximph Technology, we offer a range of solutions designed to meet the specific needs of each client, from laboratory-scale equipment to large-scale production lines. Our systems are engineered to provide the highest levels of accuracy, reliability, and efficiency, ensuring that each dose is delivered consistently and according to strict standards.
           </p>
         </div>
       </div>

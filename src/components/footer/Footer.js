@@ -37,7 +37,7 @@ const Footer = () => {
       <div className="bg-gray-700 py-4">
         <div className="container mx-auto px-6">
           <p className="text-sm text-gray-400 text-center">
-            © {new Date().getFullYear()} Eximph Technologies. All rights reserved.
+            © {new Date().getFullYear()} Eximph Technology Co. Limited. All rights reserved.
           </p>
         </div>
       </div>
