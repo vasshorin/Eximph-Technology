@@ -63,9 +63,9 @@ const Home = () => {
               <p className="mb-4">Eximph Technologies stands as a global powerhouse, empowering major players in the pharmaceutical industry with cutting-edge equipment solutions. Our unwavering commitment to excellence has solidified our position as the preferred partner for laboratories, production facilities, and manufacturers worldwide.</p>
               <p>We take pride in our comprehensive range of solutions tailored to the unique requirements of each client, spanning from precision laboratory-scale equipment to high-capacity production lines. Meticulously engineered for unrivaled precision, unwavering reliability, and optimum efficiency, our systems guarantee consistent dose delivery in strict adherence to the most stringent industry standards.</p>
             </div>
-            <div className="grid grid-cols-2 gap-4 mt-8">
-              <img className="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1" />
-              <img className="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
+            <div className="grid grid-cols-2 gap-4">
+              <img className="w-full rounded-lg" src="https://images.unsplash.com/photo-1528130723281-f9ffa133d787?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="office content 1" />
+              <img className="w-full lg:mt-20 rounded-lg" src="https://images.unsplash.com/photo-1547895749-888a559fc2a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="office content 2" />
             </div>
           </div>
         </section>
