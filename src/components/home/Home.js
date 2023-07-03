@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Features } from "../features/Features";
-import h1 from "../../assets/images/h1.jpg";
-import h2 from "../../assets/images/h2.jpg";
+import h1 from "../../assets/h1.png";
+import h2 from "../../assets/h2.png";
 import Partners from "./Partners";
 import QuickProducts from "./QuickProducts";
 
