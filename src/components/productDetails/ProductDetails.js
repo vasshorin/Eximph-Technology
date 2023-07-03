@@ -40,7 +40,7 @@ const ProductDetails = () => {
                 <div key={index}>
                   <img
                     className="product-image"
-                    src={image.imageUrl}
+                    src={image.image}
                     alt={product.name}
                   />
                 </div>

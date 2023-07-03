@@ -1,7 +1,7 @@
 import React from 'react';
-import dry from '../../assets/products/1.jpg';
-import wet from '../../assets/products/2.jpg';
-import deduster from '../../assets/products/3.jpg';
+import dry from '../../assets/products/dry/d1.jpg';
+import wet from '../../assets/products/wet/w1.jpg';
+import deduster from '../../assets/products/deduster/d1.jpg';
 import { Link } from 'react-router-dom'
 
 
